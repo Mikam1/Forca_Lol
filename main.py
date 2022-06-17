@@ -9,12 +9,10 @@ import game
 import utils
 
 def main():
-    print('')
-    print('         FORCA LOL')
-    print('')
-    print('     1 - Iniciar') # FUNÇÃO INCIAR JOGO
-    print('     2 - Sair')    # SAIR DO PROGRAMA
-    print('')
+    utils.clearConsole()
+    menuTemplate = "1 - Iniciar\n2 - Sair\n"
+
+    utils.consoleTemplate(menuTemplate)
 
     option = int(input())
     match option:

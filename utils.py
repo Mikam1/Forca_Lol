@@ -7,6 +7,6 @@ def clearConsole():
         os.system('cls')
 
 
-def consoleTemplate():
-    print('             FORCA LOL')
-    print('')
+def consoleTemplate(content = ''):
+    print('------------ FORCA LOL ------------\n')
+    print(f'{content}\n')
