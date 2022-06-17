@@ -16,3 +16,15 @@ git commit -m "MENSAGEM"
 ```sh
 git push
 ```
+
+- Para adicionar um arquivo ao ultimo commit feito, mas não enviado para o repo
+
+```sh
+git commit --amend
+```
+
+- Para resetar o commit anterior que não foi enviado para o repo
+
+```sh
+git reset --soft HEAD~1
+```
