@@ -6,6 +6,7 @@ TODO
 
 """
 import game  
+import utils
 
 def main():
     print('')
@@ -18,6 +19,7 @@ def main():
     option = int(input())
     match option:
         case 1:
+            utils.clearConsole()
             return game.start()
         case 2:
             return 0
