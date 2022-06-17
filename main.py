@@ -5,15 +5,12 @@ TODO
 2 - Escolher campeão filtrando pelo input do usuário
 
 """
-
-import json
 import game  
-
-championsNames = json.load(open('champions.json'))
 
 def main():
     print('')
-    print('     FORCA LOL')
+    print('         FORCA LOL')
+    print('')
     print('     1 - Iniciar') # FUNÇÃO INCIAR JOGO
     print('     2 - Sair')    # SAIR DO PROGRAMA
     print('')
