@@ -7,7 +7,8 @@ TODO
 """
 
 import json
-  
+import game  
+
 championsNames = json.load(open('champions.json'))
 
 def main():
@@ -16,5 +17,13 @@ def main():
     print('     1 - Iniciar') # FUNÇÃO INCIAR JOGO
     print('     2 - Sair')    # SAIR DO PROGRAMA
     print('')
+
+    option = int(input())
+    match option:
+        case 1:
+            return game.start()
+        case 2:
+            return 0
+     
 
 main()
